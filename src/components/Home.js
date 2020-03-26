@@ -2,12 +2,12 @@
 //
 import React from 'react';
 
-const App = () => {
+const Home = () => {
   return (
     <>
-      <h3>Count: 0</h3>
+      <h1>Home</h1>
     </>
   );
 };
 
-export default App;
+export default Home;

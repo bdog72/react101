@@ -1,0 +1,23 @@
+/*  */
+/*  */
+.App_button {
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.App_button:focus {
+  outline: none;
+}
+
+.App_button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.App_hr {
+  margin: 20px 0;
+}
