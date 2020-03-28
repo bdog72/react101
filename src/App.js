@@ -8,9 +8,9 @@ import Tgroup from './components/Tgroup';
 import TransitionComp from './components/Transition';
 
 const App = () => {
-  return(
+  return (
     <BrowserRouter>
-      <div>
+      <div className="container">
         <div className="anim_index">
           <Link to="/transition">Transition</Link>
           <Link to="/csstransition">CSStransition</Link>
@@ -21,7 +21,7 @@ const App = () => {
         <Route path="/tgroup" component={Tgroup}></Route>
       </div>
     </BrowserRouter>
-  )
-}
+  );
+};
 
 export default App;
